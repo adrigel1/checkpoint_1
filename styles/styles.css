@@ -1,43 +1,28 @@
 body {
   font-family: 'Manrope', sans-serif;
+  font-weight: 400px;
 }
-.container{
-  width: 1400px;
-  margin: 0 auto;
-  border: 2px solid red;
-
-}
-
-.btn{
-  display: block;
-  width: 255px;
-  height: 67px;
-  border: 1px solid #AD1818;
-  background-color: #AD1818;
-  color: #FFF;;
-  text-align: center;
-  line-height: 67px;
-  text-decoration: none;
-  font-size: 20px;
-  cursor: pointer;
-  margin-left: 125px;
-}
-.btn:hover {
-  background-color: #FFF;
-  color: #AD1818;
-}
-
 h1, h2, p{
   font-weight: 400;
 
 }
-h1 {
+
+
+
+.container{
+  width: 1400px;
+  margin: 0 auto;
+
+}
+h1{
   font-size: 60px;
+  width: 956px;
   line-height: 60px;
   margin-top: 128px;
   margin-left: 125px ;
   margin-right: 194px;
   margin-bottom: 30px;
+  letter-spacing: -1.8px;
 }
 h2{
   font-size: 18px;
@@ -48,14 +33,19 @@ h3 {
   font-size: 45px;
   margin-left: 128px;
   margin-bottom: 50px;
+  width: 1048px;
+  line-height: 61px;
+letter-spacing: -0.03em;
 }
-p{
+.fotofon_text{
+  width: 430px;
   font-size: 20px;
   line-height: normal;
   padding-top: 379px;
   padding-left: 40px;
   padding-right: 680px;
   padding-bottom: 40px;
+  letter-spacing: -0.6px;
 }
 .fotofon {
  width: 1150px;
@@ -66,7 +56,34 @@ color: #FFF;
 margin-left: 125px;
 margin-bottom: 150px;
 }
-.fotofon_text{
-  width: 430px;
-  height: 81px;
+
+button{
+  border-radius: 5px;
+  font-size: 20px;
 }
+
+.btn{
+  display: block;
+  line-height: 67px;
+  text-decoration: none;  
+  cursor: pointer;
+  margin-left: 125px;
+  color: #FFF;;
+  text-align: center;
+  width: 255px;
+  height: 67px;
+  border: 1px solid #AD1818;
+  background-color: #AD1818; 
+}
+.btn:hover {
+  background-color: #FFF;
+  color: #AD1818;
+}
+
+
+
+
+
+
+
+
